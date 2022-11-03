@@ -14,12 +14,31 @@
 
 <body>
 <!--Navigation Bar-->
+    <header>
+        <!--Logo-->
+        <a href="" class="logo">Felipe Silva</a>
+        <!--button for responsive device-->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!--menu items-->
+        <ul class="navbar">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+            <!--Dark mode button-->
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
 
 <!--Home section-->
     <section class="home" id="home">
         <div class="social">
             <a href="https://github.com/Felipe305"><i class="bx bxl-github"></i></a>
-            <a href=""><i class="bx bxl-dribbble"></i></a>
+            <a href="https://www.linkedin.com/in/felipe-silva-575531203"><i class="bx bxl-linkedin"></i></a>
             <a href=""><i class="bx bxl-behance"></i></a>
         </div>
         <!--home image-->
@@ -167,8 +186,66 @@
                 <a href="">Learn More</a>
             </div>
         </div>
-
     </section>
+
+    <!--Portfolio section-->
+    <section class="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>Our Recent Work</span>
+        </div>
+
+        <div class="portfolio-content">
+
+            <div class="portfolio-img">
+                <img src="./img/blog-2.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="./img/blog-3.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="./img/blog-4.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="./img/blog-5.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="./img/blog-6.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="./img/blog-7.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contact form-->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Contact With Us</span>
+        </div>
+
+        <!--Form-->
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </section>
+
+    <!--Footer section-->
+    <div class="footer">
+        <h2>Felipe Silva</h2>
+        <div class="footer-social">
+            <a href=""><i class="bx bxl-facebook"></i></a>
+            <a href=""><i class="bx bxl-twitter"></i></a>
+            <a href=""><i class="bx bxl-instagram"></i></a>
+        </div>
+    </div>
 
     <!--js file-->
     <script src="./js/script.js"></script>
