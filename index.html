@@ -43,7 +43,7 @@
         </div>
         <!--home image-->
         <div class="home-img">
-            <img src="./img/11.png" alt="">
+            <img src="./img/11.png" alt="" width="300px" >
         </div>
         <!--home content-->
         <div class="home-text">
@@ -139,8 +139,15 @@
                 </div>
                 <!--box-4-->
                 <div class="bars-box">
+                    <h3>Node.js</h3>
+                    <span>41%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <!--box-5-->
+                <div class="bars-box">
                     <h3>React</h3>
-                    <span>35%</span>
+                    <span>18%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar react-bar"></div>
                 </div>
@@ -228,11 +235,14 @@
 
         <!--Form-->
         <div class="contact-form">
-            <form action="">
+            <form action="https://api.staticforms.xyz/submit" method="post">
                 <input type="text" placeholder="Your name">
                 <input type="email" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                <input type="button" value="Send" class="contact-button">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="submit" value="Send" class="contact-button">
+
+                <input type="hidden" name="accessKey" value="56bdc7ad-aff5-4826-887f-f90d94c23b9d">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
             </form>
         </div>
     </section>
